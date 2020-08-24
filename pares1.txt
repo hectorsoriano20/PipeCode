@@ -1,7 +1,8 @@
 x = int(input())
 while (x != 0):
-	x = int(float(input()))
 	if (x%2 == 0):
 		print (x)
 	elif (x%2 != 0):
 		pass
+	x = int(float(input()))
+print(0)
