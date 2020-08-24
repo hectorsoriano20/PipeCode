@@ -1,0 +1,9 @@
+lista = []
+x = int(input())
+while (x != 0):
+	lista.append(x)
+	x = int(input())
+	
+mayor = max(lista)
+print (mayor)
+print(0)

@@ -1,0 +1,9 @@
+lista = []
+x = int(input())
+while (x != 0):
+	lista.append(x)
+	x = int(input())
+	
+promedio = sum(lista) / len(lista)
+print(promedio)
+print(0)

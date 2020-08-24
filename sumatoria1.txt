@@ -1,0 +1,8 @@
+lista = []
+x = int(input())
+while (x != 0):
+	lista.append(x)
+	x = int(input())
+	
+print (sum(lista))
+print(0)
